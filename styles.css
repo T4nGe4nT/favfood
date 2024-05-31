@@ -2,6 +2,7 @@ body {
     background-color: #EDF3F9;
     text-align: center;
     animation: fadeIn 5s;
+    display: flexbox;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -13,22 +14,14 @@ body {
     font-size: 2em;
     color: #3B516F;
 }
-.ing {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: #3B516F;
-}
-.dir {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: #3B516F;
-}
 .btn {
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid #333333;
     background-color: white;
     color: #3B516F;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #333333;
 }
 .dp1 {
     background-color: #F8CE6E ;
@@ -54,6 +47,15 @@ ol {
 }
 .t1 {
     border: 2px solid #3B516F;
+    margin: 0 auto;
+    display: table;
+    align-content: center;
+}
+a:hover {
+    color: #F8CE6E;
+    opacity: 0.5;
+}
+.form {
     margin: 0 auto;
     display: table;
     align-content: center;

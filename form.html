@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="index">
+    <h1>What Do You Think?</h1>
+<!--Begin Nav Bar-->    
+<hr>
+<div>
+    <nav>
+    <div class="divdir">    
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="ingredients.html">Ingrediants</a>
+    <a class="btn" href="directions.html">Directions</a>
+    </div>
+    </nav>
+</div>
+<hr> 
+<!--End Nav Bar-->
+</body>
+<div class="form">
+<h2>Tell Me Your Secrets</h2>
+
+<form action="/submit_form" method="post">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+    </div>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</html>
