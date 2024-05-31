@@ -37,9 +37,6 @@ body {
     border: 2px solid #3B516F;
     padding: auto;
 }
-.sec1 {
-    -ms-flex-align: start;
-}
 img {
     border-radius: 50%;
     border: 2px solid #3B516F;
