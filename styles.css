@@ -1,6 +1,12 @@
 body {
     background-color: #EDF3F9;
-    
+    text-align: center;
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+
 }
 .index {
     font-family: Arial, Helvetica, sans-serif;
@@ -27,9 +33,31 @@ body {
 .dp1 {
     background-color: #F8CE6E ;
     border: #333333;
-    border-radius: 5%;
+    border-radius: 10px;
     border: 2px solid #3B516F;
+    padding: auto;
 }
 .sec1 {
     -ms-flex-align: start;
+}
+img {
+    border-radius: 50%;
+    border: 2px solid #3B516F;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+ol {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+.t1 {
+    border: 2px solid #3B516F;
+    margin: 0 auto;
+    display: table;
+    align-content: center;
 }
