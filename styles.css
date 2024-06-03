@@ -93,29 +93,30 @@ img:hover {
   }
 
   /* Mobile devices */
-  @media (max-width: 600px) {
+  @media screen and(max-width: 600px) {
     .index {
       width: 90%;
     }
   }
 
   /* Tablets */
-  @media (min-width: 601px) and (max-width: 900px) {
+  @media screen and(min-width: 601px) and (max-width: 900px) {
     .index {
       width: 80%;
     }
   }
 
   /* Desktops */
-  @media (min-width: 901px) and (max-width: 1200px) {
+  @media screen and(min-width: 901px) and (max-width: 1200px) {
     .index {
       width: 70%;
     }
   }
 
   /* Large screens */
-  @media (min-width: 1201px) {
+  @media screen and(min-width: 1201px) {
     .index {
       width: 60%;
     }
   }
+  
