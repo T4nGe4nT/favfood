@@ -3,7 +3,6 @@ body {
     background-image: url(bg.jpeg);
     text-align: center;
     animation: fadeIn 5s;
-    display: flexbox;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -12,7 +11,7 @@ body {
 }
 .index {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #3B516F;
 }
 .btn {
@@ -59,7 +58,6 @@ ol {
 }
 a:hover {
     color: #F8CE6E;
-    transform: scale(1.05);
     opacity: 0.5;
 }
 .form1 {
@@ -88,3 +86,36 @@ a:hover {
 img:hover {
     transform: scale(1.05);
 }
+.index {
+    margin: 0 auto;
+    padding: 5px;
+   
+  }
+
+  /* Mobile devices */
+  @media (max-width: 600px) {
+    .index {
+      width: 90%;
+    }
+  }
+
+  /* Tablets */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .index {
+      width: 80%;
+    }
+  }
+
+  /* Desktops */
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .index {
+      width: 70%;
+    }
+  }
+
+  /* Large screens */
+  @media (min-width: 1201px) {
+    .index {
+      width: 60%;
+    }
+  }
