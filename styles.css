@@ -1,5 +1,6 @@
 body {
     background-color: #EDF3F9;
+    background-image: url(bg.jpeg);
     text-align: center;
     animation: fadeIn 5s;
     display: flexbox;
@@ -28,11 +29,16 @@ body {
     border: #333333;
     border-radius: 10px;
     border: 2px solid #3B516F;
+    box-shadow: 0 4px 4px #333333;
     padding: auto;
+    width: 50%;
+
 }
 img {
     border-radius: 50%;
     border: 2px solid #3B516F;
+    box-shadow: 0 4px 4px #333333;
+    width: 80%
 }
 
 ul {
@@ -55,8 +61,26 @@ a:hover {
     color: #F8CE6E;
     opacity: 0.5;
 }
-.form {
+.form1 {
+    display: flexbox;
+    background-color: #F8CE6E ;
     margin: 0 auto;
     display: table;
-    align-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #333333;
+    padding: auto;
+
+}
+.body1 {
+    display: flex;
+    justify-content: space-around;
+}
+.dir1 {
+    background-color: #F8CE6E ;
+    border: #333333;
+    border-radius: 10px;
+    border: 2px solid #3B516F;
+    box-shadow: 0 4px 4px #333333;
+    padding: auto;
 }
